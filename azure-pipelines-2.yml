@@ -14,6 +14,6 @@ steps:
   displayName: 'Run a one-line script'
 
 - script: |
-     javac MyProgram.java
-     java MyProgram
-     displayName: 'Compile and Run Java Program'
+      javac src/BubbleSort.java
+      java -cp src BubbleSort
+      displayName: 'Compile and Run BubbleSort'
