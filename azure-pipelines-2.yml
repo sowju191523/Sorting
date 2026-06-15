@@ -22,3 +22,4 @@ steps:
   inputs:
     targetPath: 'BubbleSortOutput.txt'
     artifact: 'program-output'
+  displayName: 'Publish Program Output'
