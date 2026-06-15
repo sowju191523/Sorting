@@ -17,4 +17,4 @@ steps:
       ls -R
       javac *.java
       java BubbleSort
-    displayName: 'Compile and Run BubbleSort'
+  displayName: 'Compile and Run BubbleSort'
